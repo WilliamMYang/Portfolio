@@ -208,7 +208,7 @@ html, body{
 }
 
 
-    /* Websites */
+    /* Projects.Websites */
     .projWeb{
         color: #E2DED0;
         font-size: 36px;
@@ -290,7 +290,7 @@ html, body{
         margin-left: 134px;
     }
 
-    /* End Websites*/
+    /* End Projects.Websites*/
 
     .lineDivide{
         background-color: #746C70;
@@ -301,7 +301,7 @@ html, body{
         margin-left: 150px;
     }
 
-    /* Designs */
+    /* Projects.Designs */
     .projDesign{
         color: #E2DED0;
         font-size: 36px;
@@ -313,7 +313,7 @@ html, body{
     .rectDesignText{
         width: 600px;
         height: 425px;
-        margin: 50px 90px 90px 0px;
+        margin: 50px 90px 90px 145px;
         display: inline-block;
         vertical-align: middle;
         border-radius: 5px;
@@ -322,7 +322,7 @@ html, body{
     .rectDesign{
         width: 629px;
         height: 447px;
-        margin: 20px 90px 90px 900px;
+        margin: 35px 90px 90px 35px;
         background: #647C90;
         display: inline-block;
         vertical-align: middle;
@@ -383,7 +383,145 @@ html, body{
         margin-left: 134px;
     }
 
-    /* End Designs*/
+    /* End Projects.Designs*/
 
+    .lineDivide{
+        background-color: #746C70;
+        vertical-align: middle;
+        width: 80%;
+        height: 3px;
+        border-color: none;
+        margin-left: 150px;
+    }
 
+    /* Projects.Other */
+    .projOther{
+        color: #E2DED0;
+        font-size: 36px;
+        margin-left: 100px;
+        margin-top: 55px;
+        font-weight: 200;
+    }
+
+    .rectOther{
+        width: 629px;
+        height: 447px;
+        margin: 20px 90px 90px 145px;
+        background: #647C90;
+        display: inline-block;
+        vertical-align: middle;
+        border-radius: 5px;
+    }
+
+    .rectOtherText{
+        width: 600px;
+        height: 425px;
+        margin: 35px 90px 90px 35px;
+        display: inline-block;
+        vertical-align: middle;
+        border-radius: 5px;
+    }
+
+    .rectOtherText p{
+        color: #E2DED0;
+        font-size: 32px;
+        font-weight: 200;
+
+    }
+
+    .rectOtherText ul{
+        color: #E2DED0;
+        font-size: 32px;
+        font-weight: 200;
+        list-style-type: none;
+    }
+
+    .projOtherMore{
+        color: #E2DED0;
+        font-size: 36px;
+        margin-left: 100px;
+        margin-top: -50px;
+        font-weight: 200;
+    }
+
+    .rectMoreOther{
+        float: left;
+        vertical-align: middle;
+        width: 270px;
+        height: 190px;
+        margin: 20px 90px 90px 60px;
+        background: #647C90;
+        border-radius: 5px;
+
+    }
+
+    .textMoreOther{
+        display: inline-block;
+        vertical-align: middle;
+        font-size: 20px;
+        color: #E2DED0;
+        margin: -170px 0px 0px 60px;
+        font-weight: 100;
+    }
+
+    #textMoreOther2{
+        margin-left: 132px;
+    }
+
+    #textMoreOther3{
+        margin-left: 133px;
+    }
+
+    #textMoreOther4{
+        margin-left: 134px;
+    }
+
+    /* End Projects.Other*/
 /* End Projects */
+
+/* About Me */
+.aboutme{
+    height: 100vh;
+    width: 100%;
+    background-color: #746C70;
+    padding: 1px;
+}
+
+.aboutTitle{
+    font-size: 48px;
+    color: #E2DED0;
+    margin-left: 65px;
+    margin-top: 55px;
+}
+
+.rectAbout{
+    width: 570px;
+    height: 762px;
+    margin: 20px 90px 90px 145px;
+    background: #4E4F50;
+    display: inline-block;
+    vertical-align: middle;
+    border-radius: 5px;
+}
+
+.textAbout{
+    width: 700px;
+    height: 425px;
+    margin-top: -300px;
+    color: #E2DED0;
+    font-size: 30px;
+    font-weight: 300;
+    display: inline-block;
+    vertical-align: middle;
+    border-radius: 5px;
+    
+}
+
+/* End About Me*/
+
+/* Contact Me*/
+.contactme{
+    
+}
+
+/* End Contact Me */
