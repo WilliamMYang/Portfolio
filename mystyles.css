@@ -554,7 +554,7 @@ html, body{
     height: 762px;
     margin: 20px 90px 90px 145px;
     background: #6D6D6D;
-    display: table;
+    display: inline-block;
     vertical-align: middle;
     border-radius: 5px;
 }
@@ -584,12 +584,14 @@ html, body{
 }
 
 #rectContMsg{
+    font-family: 'Noto Sans', sans-serif;
     width: 470px;
     height: 286px;
     background:#C4C4C4;
     display: inline-block;
     vertical-align: middle;
     margin: 0px 50px 50px 50px;
+    padding: 10px;
     font-size: 26px;
     border-radius: 5px;
 }
@@ -608,6 +610,27 @@ html, body{
     position: relative;
     margin: 0px 50px 50px 100px;
     border-radius: 5px;
+} 
+
+.rectContactLinks{
+    width: 750px;
+    height: 762px;
+    display: inline-block;
+    vertical-align: middle;
 }
+
+.rectContactLinks h2{
+    color: #E2DED0;
+    font-size: 48px;
+    font-weight: 500;
+}
+
+.rectContactLinks a{
+    color: #E2DED6;
+    font-size: 48px;
+    font-weight: 100;
+    font-style:italic;
+}
+
 
 /* End Contact Me */
